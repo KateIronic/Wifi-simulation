@@ -200,7 +200,6 @@ class User {
 
 class AccessPoint {
     private List<Packet> receivedPackets;
-
     public AccessPoint() {
         this.receivedPackets = new ArrayList<>();
     }
